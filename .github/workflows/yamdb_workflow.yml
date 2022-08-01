@@ -44,7 +44,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: mrgorkiy/infra:latest
+          tags: mrgorkiy/yamdb_final:latest
   deploy:
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub

@@ -13,7 +13,7 @@ services:
 
   web:
     # build: ../api_yamdb
-    image: mrgorkiy/infra:latest
+    image: mrgorkiy/yamdb_final:latest
 
     restart: always
 
