@@ -54,6 +54,8 @@ class TitleSerializer(serializers.ModelSerializer):
         rating = self.context["rating"]
         if obj in rating:
             return rating.get(pk=obj.pk).rating
+        else:
+            return None
 
 
 class TitleCreatySerializer(serializers.ModelSerializer):

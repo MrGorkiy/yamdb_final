@@ -2,9 +2,9 @@ import os
 
 from datetime import timedelta
 
-DB_ENGINE = os.getenv('DB_ENGINE',  default='django.db.backends.postgresql')
-DB_NAME = os.getenv('DB_NAME',  default='postgres')
-DB_USER = os.getenv('POSTGRES_USER',  default='postgres')
+DB_ENGINE = os.getenv('DB_ENGINE', default='django.db.backends.postgresql')
+DB_NAME = os.getenv('DB_NAME', default='postgres')
+DB_USER = os.getenv('POSTGRES_USER', default='postgres')
 DB_PASSWORD = os.getenv('POSTGRES_PASSWORD', default='password1')
 DB_HOST = os.getenv('DB_HOST', default='db')
 DB_PORT = os.getenv('DB_PORT', default='5432')
