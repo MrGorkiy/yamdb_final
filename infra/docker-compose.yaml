@@ -40,7 +40,6 @@ services:
       - ./static/redoc.yaml:/var/html/redoc/redoc.yaml:ro
       - ./templates/redoc.html:/var/html/redoc/redoc.html:ro
 
-
     depends_on:
       - web
 
