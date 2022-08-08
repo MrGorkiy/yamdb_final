@@ -56,13 +56,13 @@
 
 - Заполнение БД в ручную или используя готовое наполнение
     ```bash
-    python manage.py shell  
+    docker-compose exec web python manage.py shell  
     # выполнить в открывшемся терминале:
     >>> from django.contrib.contenttypes.models import ContentType
     >>> ContentType.objects.all().delete()
     >>> quit()
     
-    python manage.py loaddata fixtures.json
+    docker-compose exec web python manage.py loaddata fixtures.json
     ```
 
 # Технологии
