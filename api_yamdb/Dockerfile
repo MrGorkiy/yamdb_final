@@ -4,6 +4,8 @@ WORKDIR app
 
 COPY requirements.txt /app
 
+COPY ../infra/fixtures.json app/
+
 RUN pip3 install -r requirements.txt --no-cache-dir
 
 COPY . /app
