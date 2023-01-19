@@ -57,6 +57,7 @@ class Category(models.Model):
 
 class Genre(models.Model):
     name = models.CharField("Наименование", max_length=256)
+    color = models.CharField(max_length=16)
     slug = models.CharField("Ссылка", max_length=50, unique=True)
 
     class Meta:

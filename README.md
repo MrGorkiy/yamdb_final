@@ -1,5 +1,10 @@
 # api_yamdb / final 
 ![example workflow](https://github.com/MrGorkiy/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+[![Python](https://img.shields.io/badge/-Python-464646?style=flat&logo=Python&logoColor=ffffff&color=043A6B)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/-Django-464646?style=flat&logo=Django&logoColor=ffffff&color=043A6B)](https://www.djangoproject.com/)
+[![Django REST Framework](https://img.shields.io/badge/-Django%20REST%20Framework-464646?style=flat&logo=Django%20REST%20Framework&logoColor=ffffff&color=043A6B)](https://www.django-rest-framework.org/)
+[![HTML](https://img.shields.io/badge/-HTML-464646?style=flat&logo=Html5&logoColor=ffffff&color=043A6B)](https://html.spec.whatwg.org/multipage/)
+[![CSS](https://img.shields.io/badge/-CSS_Bootstrap-464646?style=flat&logo=Css3&logoColor=ffffff&color=043A6B)]([https://html.spec.whatwg.org/multipage/](https://getbootstrap.ru/))
 
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Titles). Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Список категорий (Category) может быть расширен администратором (например, можно добавить категорию «Изобразительное искусство» или «Ювелирка»).
 Для приложения настроен Continuous Integration и Continuous Deployment, а это значит, что реализуете:
