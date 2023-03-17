@@ -77,5 +77,5 @@ Python, Django, HTTP, HTTPS, Django Rest Framework, PostgreSQL, GitHub Actions, 
 
 # Авторы
 
-- Брысин Максим (mbrysin95@yandex.ru)
+Автор: [MrGorkiy](https://github.com/MrGorkiy)
 
